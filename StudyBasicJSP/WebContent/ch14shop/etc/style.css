@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+body {
+	font-size: 12px; 
+	text-align: center;
+}
+
+table {
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+select {
+	font-size: 12px; 
+}
+
+form {
+	font-size: 12px; 
+}
+
+p{
+	font-weight: bold;
+}
+a{
+	color:#FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+	
+	-webkit-transition: color 0.1s linear 0s;	
+	   -moz-transition: color 0.1s linear 0s;
+		 -o-transition: color 0.1s linear 0s;
+		    transition: color 0.1s linear 0s;
+}
+
+a:hover,
+a:active,
+a:focus{
+	outline: 0;
+	color:#DE5E60;
+	text-decoration:none;
+}
+
+a img {
+	border: none;
+}
+
+a > img {
+	vertical-align: bottom;	
+}

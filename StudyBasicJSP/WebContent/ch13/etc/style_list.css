@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+
+@CHARSET "UTF-8";
+
+body {
+	font-size: 12px;
+	text-align: center;
+	background: rgb(238,238,238);
+	position: relative;
+}
+.sidebanner {
+	position:absolute;
+	width: 400px;
+	height:700px;
+}
+
+#rightside {
+	right: 0px;
+}
+#leftside{
+	left: 0px;
+}
+.list {
+position:absolute;
+top: 300px;
+left: 180px;
+	/*margin-left:135px;*/
+}
+#writebtn{
+	height:30px;
+}
+.writebutton {
+	height:30px;
+	position: absolute;
+	top:250px;
+	left: 530px;
+	border-top-right-radius:1em;
+	border-top-left-radius:1em;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+}
+.noboard{
+	position: absolute;
+	top: 300px;
+	left:530px;
+}
+table {
+
+	text-align: center;
+	border: 1px solid black;
+
+}
+table tr,td {
+	border-collapse:collapse;
+	font-weight:bolder;
+	height:40px;
+	border: 1px solid black;
+}
+
+.reple1 {
+	width: 10px;
+	height: 10px;
+}
+p{
+	font-size:2em;
+	font-weight: bold;
+}
+td a {
+	padding: 5px;
+	text-decoration: none;
+	color:black;
+}
+.pagei {
+	font-size:14px;
+	position: absolute;
+	top:850px;
+	left: 870px;
+}
+
+.sb:hover{
+	background: rgba(255,0,0,0.5);
+}
+/* 기타 웹 브라우저 */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.hot {
+    -moz-animation: blink normal 1s infinite ease-in-out;
+    -webkit-animation: blink normal 1s infinite ease-in-out;
+    -ms-animation: blink normal 1s infinite ease-in-out;
+    animation: blink normal 1s infinite ease-in-out;
+}
